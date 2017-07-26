@@ -1,0 +1,141 @@
+/*All this CSS is optional, but makes the website look much better */
+/*Style your page to however you like it */
+/*Global */
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+/*Wrapper*/
+.wrapper{
+	
+}
+/*Buttons*/
+.button_colors {
+	border: none;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	padding: 3px;
+	background-color: #FF5733; /*4CAF50 */
+}
+#red {
+	background-color: red;
+}
+#green {
+	background-color: green;
+}
+#blue {
+	background-color: blue;
+}
+/*Radio Buttons */
+.radiobuttons{
+	border-width: 0px;
+}
+
+/*Table */
+.table{
+	margin: auto;
+	height: 900px;
+	overflow: scroll;
+}
+.table table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td {
+	padding: 4px;
+	padding-left: 5px;
+	margin: 0;
+	border: 1px solid black;
+}
+.table #table_headers {
+	font-weight: bold;
+}
+.table_caption {
+	font-weight: bold;
+	font-size: 18px;
+}
+/*Everything in the header is under here*/
+header {
+	margin: auto;
+    	width: 100%;
+}
+header h1 {
+	margin: auto;
+    	width: 100%;
+	color:	white;
+	font-size: 48px;
+	text-align: center;
+	background-color: #e54a12;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#nav_home {
+	margin: auto;
+	width: 100;
+}
+#nav_home ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#nav_home li {
+	float: left;
+}
+#nav_home li a{
+	display: inline;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: italic;
+    transition: .78s;
+    font-size: 17px;
+}
+#nav_home li a:hover {
+	background-color: #555;
+}
+/*Everything in the left column is under here*/
+.left {
+	margin: auto;
+	height: 100%;
+	width: 300px;
+	float: left;
+	background-color: #3E3836;
+}
+.nav {
+	margin: auto;
+	height: 900px;
+	width: auto;
+	text-align: center;
+	line-height: 50px;
+}
+/*Everything in the center column is under here*/
+.center {
+	margin: auto;
+	width: 70%;
+}
+
+/* Everything in the right column in under here*/
+.right {
+	margin: auto;
+	height: 100%;
+	width: 300px;
+	float: right;
+	background-color: #3E3836;
+}
+
+/* Navation bar */
+.topnav {
+	margin: auto;
+	background-color: #3E3836;
+}
+
+/* Need to edit other pages on website/
